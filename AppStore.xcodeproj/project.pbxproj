@@ -21,6 +21,11 @@
 		094BEAA82BC259FE00342DC3 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094BEAA72BC259FE00342DC3 /* BaseTableViewCell.swift */; };
 		094BEAAA2BC25A5900342DC3 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094BEAA92BC25A5900342DC3 /* BaseCollectionViewCell.swift */; };
 		094BEAAC2BC25A8C00342DC3 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094BEAAB2BC25A8C00342DC3 /* BaseView.swift */; };
+		094BEAB02BC25B0D00342DC3 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094BEAAF2BC25B0D00342DC3 /* SearchViewController.swift */; };
+		094BEAB32BC25B4200342DC3 /* ArcadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094BEAB22BC25B4200342DC3 /* ArcadeViewController.swift */; };
+		094BEAB62BC25B5E00342DC3 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094BEAB52BC25B5E00342DC3 /* AppViewController.swift */; };
+		094BEAB92BC25B7900342DC3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094BEAB82BC25B7900342DC3 /* GameViewController.swift */; };
+		094BEABC2BC25B8D00342DC3 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094BEABB2BC25B8D00342DC3 /* TodayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +41,11 @@
 		094BEAA72BC259FE00342DC3 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
 		094BEAA92BC25A5900342DC3 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
 		094BEAAB2BC25A8C00342DC3 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		094BEAAF2BC25B0D00342DC3 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		094BEAB22BC25B4200342DC3 /* ArcadeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadeViewController.swift; sourceTree = "<group>"; };
+		094BEAB52BC25B5E00342DC3 /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
+		094BEAB82BC25B7900342DC3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		094BEABB2BC25B8D00342DC3 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +82,11 @@
 		094BEA812BC2558C00342DC3 /* AppStore */ = {
 			isa = PBXGroup;
 			children = (
+				094BEABA2BC25B8800342DC3 /* Today */,
+				094BEAB72BC25B6F00342DC3 /* Game */,
+				094BEAB42BC25B5000342DC3 /* App */,
+				094BEAB12BC25B1A00342DC3 /* Arcade */,
+				094BEAAE2BC25AFC00342DC3 /* Search */,
 				094BEAA42BC259AF00342DC3 /* Base */,
 				094BEA822BC2558C00342DC3 /* AppDelegate.swift */,
 				094BEA842BC2558C00342DC3 /* SceneDelegate.swift */,
@@ -93,6 +108,46 @@
 				094BEAA92BC25A5900342DC3 /* BaseCollectionViewCell.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		094BEAAE2BC25AFC00342DC3 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				094BEAAF2BC25B0D00342DC3 /* SearchViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		094BEAB12BC25B1A00342DC3 /* Arcade */ = {
+			isa = PBXGroup;
+			children = (
+				094BEAB22BC25B4200342DC3 /* ArcadeViewController.swift */,
+			);
+			path = Arcade;
+			sourceTree = "<group>";
+		};
+		094BEAB42BC25B5000342DC3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				094BEAB52BC25B5E00342DC3 /* AppViewController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		094BEAB72BC25B6F00342DC3 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				094BEAB82BC25B7900342DC3 /* GameViewController.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		094BEABA2BC25B8800342DC3 /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				094BEABB2BC25B8D00342DC3 /* TodayViewController.swift */,
+			);
+			path = Today;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,13 +232,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				094BEAB62BC25B5E00342DC3 /* AppViewController.swift in Sources */,
 				094BEA872BC2558C00342DC3 /* ViewController.swift in Sources */,
 				094BEAA62BC259B800342DC3 /* BaseViewController.swift in Sources */,
+				094BEAB02BC25B0D00342DC3 /* SearchViewController.swift in Sources */,
 				094BEA832BC2558C00342DC3 /* AppDelegate.swift in Sources */,
 				094BEAA82BC259FE00342DC3 /* BaseTableViewCell.swift in Sources */,
 				094BEAAC2BC25A8C00342DC3 /* BaseView.swift in Sources */,
 				094BEA852BC2558C00342DC3 /* SceneDelegate.swift in Sources */,
+				094BEABC2BC25B8D00342DC3 /* TodayViewController.swift in Sources */,
 				094BEAAA2BC25A5900342DC3 /* BaseCollectionViewCell.swift in Sources */,
+				094BEAB92BC25B7900342DC3 /* GameViewController.swift in Sources */,
+				094BEAB32BC25B4200342DC3 /* ArcadeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
